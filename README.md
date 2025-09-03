@@ -1,43 +1,42 @@
 # Altus 4 Documentation
 
-[![Deploy Documentation](https://github.com/altus4/docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/altus4/docs/actions/workflows/deploy.yml)
-[![Sync Status](https://github.com/altus4/website/actions/workflows/sync-docs.yml/badge.svg)](https://github.com/altus4/website/actions/workflows/sync-docs.yml)
+![Documentation Status](https://img.shields.io/badge/docs-auto--synced-brightgreen)
+![Last Sync](https://img.shields.io/badge/last%20sync-$(date +%Y--%m--%d)-blue)
 
-**Complete Documentation for Altus 4 - AI-Enhanced MySQL Full-Text Search Engine**
+This repository contains the documentation for **Altus 4** - AI-Enhanced MySQL Full-Text Search Engine.
 
-## 🌐 Live Documentation
+## 📖 View Documentation
 
-Visit the live documentation site: **[https://altus4.github.io/docs](https://altus4.github.io/docs)**
+**Live Documentation**: [https://altus4.github.io/docs](https://altus4.github.io/docs)
 
-## 📚 What's Inside
+## 🔄 Auto-Synchronization
 
-This repository contains the complete documentation for Altus 4, including:
+This repository is automatically synchronized from the main [altus4/core](https://github.com/altus4/core) repository.
 
-- **🏗️ Architecture**: System design and component overview
-- **🔧 API Reference**: Complete API documentation with examples
-- **⚙️ Setup & Deployment**: Installation and configuration guides
-- **💻 Development**: Contributing guidelines and development workflow
-- **🧪 Testing**: Testing strategies and implementation guides
-- **📖 Examples**: Practical usage examples and tutorials
-- **🔍 Services**: Detailed service documentation
+- **Source**: `docs/` directory in the main repository
+- **Sync Trigger**: Any push to `main` or `develop` branch that modifies documentation
+- **Last Sync**: $(date '+%Y-%m-%d %H:%M:%S UTC')
+- **Source Commit**: [ef3e456](https://github.com/altus4/core/commit/ef3e456e6bab4b96b111a0df890db0f3bb51eb47)
 
-## 🔄 Auto-Sync
+## ⚠️ Contributing
 
-This repository is automatically synchronized from the main [altus4/website](https://github.com/altus4/website) repository. 
+**Do not make direct changes to this repository!**
 
-- **Source**: `altus4/website/docs/` directory
-- **Target**: This repository (`altus4/docs`)
-- **Trigger**: Automatic on push to main/develop branches
-- **Manual**: Available via GitHub Actions workflow
+To contribute to the documentation:
 
-## 🚀 Local Development
+1. 🍴 Fork the [main repository](https://github.com/altus4/core)
+2. 📝 Make changes to the `docs/` directory
+3. 🔀 Submit a pull request to the main repository
+4. ✅ Changes will be automatically synced here upon merge
 
-To run the documentation locally:
+## 🏗️ Local Development
+
+To work with the documentation locally:
 
 ```bash
-# Clone this repository
-git clone https://github.com/altus4/docs.git
-cd docs
+# Clone the main repository
+git clone https://github.com/altus4/core.git
+cd altus4/docs
 
 # Install dependencies
 npm install
@@ -49,24 +48,23 @@ npm run docs:dev
 npm run docs:build
 ```
 
-## 📝 Contributing
+## 📚 Documentation Structure
 
-Documentation changes should be made in the main repository:
+- **[Setup Guide](./setup/)** - Installation and deployment
+- **[API Reference](./api/)** - Complete API documentation
+- **[Architecture](./architecture/)** - System design and patterns
+- **[Services](./services/)** - Service layer documentation
+- **[Examples](./examples/)** - Code examples and tutorials
+- **[Development](./development/)** - Contributing guidelines
+- **[Testing](./testing/)** - Testing strategies and examples
 
-1. **Main Repository**: [altus4/website](https://github.com/altus4/website)
-2. **Edit Path**: `docs/` directory
-3. **Auto-Sync**: Changes will be automatically synced to this repository
+## 🤖 Automation Details
 
-## 🔗 Links
-
-- **Main Repository**: [altus4/website](https://github.com/altus4/website)
-- **Live Documentation**: [altus4.github.io/docs](https://altus4.github.io/docs)
-- **API Demo**: [altus4.dev](https://altus4.dev)
+This repository uses GitHub Actions for:
+- 🔄 **Auto-sync** from main repository
+- 🏗️ **Auto-build** documentation site
+- 🚀 **Auto-deploy** to GitHub Pages
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Built with ❤️ by the Altus 4 team**
+This documentation is part of the Altus 4 project. See the [main repository](https://github.com/altus4/core) for license information.

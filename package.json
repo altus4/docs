@@ -5,8 +5,7 @@
   "scripts": {
     "docs:dev": "vitepress dev . --port 5174",
     "docs:build": "vitepress build .",
-    "docs:preview": "vitepress preview .",
-    "docs:serve": "vitepress serve . --port 5174"
+    "docs:preview": "vitepress preview ."
   },
   "keywords": [
     "altus4",
@@ -14,23 +13,14 @@
     "mysql",
     "search",
     "ai",
-    "full-text-search",
     "vitepress"
   ],
-  "author": "Altus 4 Team",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/altus4/docs.git"
   },
   "homepage": "https://altus4.github.io/docs",
-  "bugs": {
-    "url": "https://github.com/altus4/website/issues"
-  },
   "devDependencies": {
-    "vitepress": "^1.0.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "vitepress": "^2.0.0-alpha.12"
   }
 }
