@@ -1,0 +1,36 @@
+{
+  "name": "@altus4/docs",
+  "version": "1.0.0",
+  "description": "Documentation for Altus 4 - AI-Enhanced MySQL Full-Text Search Engine",
+  "scripts": {
+    "docs:dev": "vitepress dev . --port 5174",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview .",
+    "docs:serve": "vitepress serve . --port 5174"
+  },
+  "keywords": [
+    "altus4",
+    "documentation",
+    "mysql",
+    "search",
+    "ai",
+    "full-text-search",
+    "vitepress"
+  ],
+  "author": "Altus 4 Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altus4/docs.git"
+  },
+  "homepage": "https://altus4.github.io/docs",
+  "bugs": {
+    "url": "https://github.com/altus4/website/issues"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
