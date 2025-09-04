@@ -16,7 +16,7 @@ This repository is automatically synchronized from the main [altus4/core](https:
 - **Source**: `docs/` directory in the main repository
 - **Sync Trigger**: Any push to `main` or `develop` branch that modifies documentation
 - **Last Sync**: $(date '+%Y-%m-%d %H:%M:%S UTC')
-- **Source Commit**: [be0b833](https://github.com/altus4/core/commit/be0b83315ee79e92dc3fb6a6a0c8be552d98a633)
+- **Source Commit**: [5dfe25c](https://github.com/altus4/core/commit/5dfe25c69d6beb3b83bf3cd7ae7152207e8055d3)
 
 ## ⚠️ Contributing
 
