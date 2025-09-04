@@ -5,31 +5,31 @@
 
 This repository contains the documentation for **Altus 4** - AI-Enhanced MySQL Full-Text Search Engine.
 
-## View Documentation
+## 📖 View Documentation
 
 **Live Documentation**: [https://altus4.github.io/docs](https://altus4.github.io/docs)
 
-## Auto-Synchronization
+## 🔄 Auto-Synchronization
 
 This repository is automatically synchronized from the main [altus4/core](https://github.com/altus4/core) repository.
 
 - **Source**: `docs/` directory in the main repository
 - **Sync Trigger**: Any push to `main` or `develop` branch that modifies documentation
 - **Last Sync**: $(date '+%Y-%m-%d %H:%M:%S UTC')
-- **Source Commit**: [9efd017](https://github.com/altus4/core/commit/9efd017aafb71541833071eec8fc2e709b93c037)
+- **Source Commit**: [5c7fe44](https://github.com/altus4/core/commit/5c7fe44fd6f4f886dcccbc32c3afbcfa28752ec7)
 
-## Contributing
+## ⚠️ Contributing
 
 **Do not make direct changes to this repository!**
 
 To contribute to the documentation:
 
-1. Fork the [main repository](https://github.com/altus4/core)
-2. Make changes to the `docs/` directory
-3. Submit a pull request to the main repository
-4. Changes will be automatically synced here upon merge
+1. 🍴 Fork the [main repository](https://github.com/altus4/core)
+2. 📝 Make changes to the `docs/` directory
+3. 🔀 Submit a pull request to the main repository
+4. ✅ Changes will be automatically synced here upon merge
 
-## Local Development
+## 🏗️ Local Development
 
 To work with the documentation locally:
 
@@ -48,7 +48,7 @@ npm run docs:dev
 npm run docs:build
 ```
 
-## Documentation Structure
+## 📚 Documentation Structure
 
 - **[Setup Guide](./setup/)** - Installation and deployment
 - **[API Reference](./api/)** - Complete API documentation
@@ -58,13 +58,13 @@ npm run docs:build
 - **[Development](./development/)** - Contributing guidelines
 - **[Testing](./testing/)** - Testing strategies and examples
 
-## Automation Details
+## 🤖 Automation Details
 
 This repository uses GitHub Actions for:
-- **Auto-sync** from main repository
-- **Auto-build** documentation site
-- **Auto-deploy** to GitHub Pages
+- 🔄 **Auto-sync** from main repository
+- 🏗️ **Auto-build** documentation site
+- 🚀 **Auto-deploy** to GitHub Pages
 
-## License
+## 📄 License
 
 This documentation is part of the Altus 4 project. See the [main repository](https://github.com/altus4/core) for license information.
