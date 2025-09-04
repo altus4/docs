@@ -7,7 +7,7 @@ This repository contains the documentation for **Altus 4** - AI-Enhanced MySQL F
 
 ## View Documentation
 
-**Live Documentation**: [https://altus4.github.io/docs](https://altus4.github.io/docs)
+**Live Documentation**: [https://altus4.thavarshan.com/docs](https://altus4.thavarshan.com/docs)
 
 ## Auto-Synchronization
 
@@ -15,8 +15,8 @@ This repository is automatically synchronized from the main [altus4/core](https:
 
 - **Source**: `docs/` directory in the main repository
 - **Sync Trigger**: Any push to `main` or `develop` branch that modifies documentation
-- **Last Sync**: 2025-09-04 11:57:26 UTC
-- **Source Commit**: [555a784](https://github.com/altus4/core/commit/555a784f4eb101d81ff6101a53e194f5ecc20a75)
+- **Last Sync**: 2025-09-04 12:10:55 UTC
+- **Source Commit**: [5699b03](https://github.com/altus4/core/commit/5699b038fada67620efc1d766b40c0c1bf8870a4)
 
 ## Contributing
 

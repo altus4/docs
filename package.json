@@ -19,7 +19,7 @@
     "type": "git",
     "url": "https://github.com/altus4/docs.git"
   },
-  "homepage": "https://altus4.github.io/docs",
+  "homepage": "https://altus4.thavarshan.com/docs",
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.12"
   }
