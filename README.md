@@ -1,7 +1,7 @@
 # Altus 4 Documentation
 
 ![Documentation Status](https://img.shields.io/badge/docs-auto--synced-brightgreen)
-![Last Sync](https://img.shields.io/badge/last%20sync-2025-09-12-blue)
+![Last Sync](https://img.shields.io/badge/last%20sync-2025-09-13-blue)
 
 This repository contains the documentation for **Altus 4** - AI-Enhanced MySQL Full-Text Search Engine.
 
@@ -15,8 +15,8 @@ This repository is automatically synchronized from the main [altus4/core](https:
 
 - **Source**: `docs/` directory in the main repository
 - **Sync Trigger**: Any push to `main` or `develop` branch that modifies documentation
-- **Last Sync**: 2025-09-12 05:05:59 UTC
-- **Source Commit**: [b82951d](https://github.com/altus4/core/commit/b82951dfc115f5936859923939962b335b985a59)
+- **Last Sync**: 2025-09-13 15:25:40 UTC
+- **Source Commit**: [03b8d9f](https://github.com/altus4/core/commit/03b8d9f75b6482ce38656a6c27d785e6fa408358)
 
 ## Contributing
 
